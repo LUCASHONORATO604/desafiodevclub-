@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{box-sizing: border-box;
+    margin: 0%;padding: 0%;   
+    font-family: 
+    "Montserrat", 
+    sans-serif; }  
+
+
+
+.box{height: 100vh;
+    width: 100vw;
+    position: absolute;}
+
+
+/*lado esuqerdo*/
+.left{display: inline-block;
+    height: 100vh;
+     width: 70%;
+     position: relative;
+     top: 25px;left: 25px;}
+
+.botao1{color:  rgba(152, 157, 156, 1);
+        font-size: 24px;    
+        font-weight: 600;
+        margin-right: 15px;
+        cursor: pointer;}
+
+
+
+.botao1:hover{text-decoration: underline;}
+
+.botao1:nth-child(6):active{opacity: .8;
+                       font-size: 22px;}
+
+ .botao1:nth-child(6)       
+     {color: rgba(255, 255, 255, 1);
+     background: rgba(102, 90, 225, 1);
+     border-radius: 30px;
+     padding:10px  20px ;
+     text-align: center;
+    text-decoration: none;}
+
+ img{width: 550px;
+     height: 500px;
+     position: relative;
+     top: 50px;left: 30px;}
+
+
+
+/*lado direito*/
+.right{display: inline-block;
+    position: absolute;
+     height: 100vh;
+     width: 30%;}
+
+main{position: relative;
+     right:    265px; }
+
+
+ h1{color: rgba(81, 81, 81, 1);
+     font-size: 100px; 
+     font-weight: 900;
+     width:513px ;
+     position: relative;
+     top: 100px;}
+
+     h2{font-size: 50px;
+     width: 550px;
+     font-weight: 500;
+     color: rgba(81, 81, 81, 1);
+     position: relative;
+     top: 90px;left: 15px;
+     word-spacing: 24px;}
+
+
+     p{color: rgba(132, 132, 132, 1);
+      font-size: 24px;
+      font-weight: 400;
+      width: 515px;
+      position: relative;
+      top: 90px;}
+
+ .botao2{background: rgba(173, 255, 0, 1);
+        color:rgba(0, 0, 0, 1);
+        font-size: 28px;
+        font-weight: 700;         
+        padding: 10px 20px;
+        border: none;
+        border-radius: 50px;
+        position: relative;
+        top:170px ;
+        cursor: pointer;}
+
+.botao2:active{font-size:26px;}
+.botao2:hover{opacity: .8;}
+
+
+
+/*PARTE DA RESPONSIViDADE*/
+
+
+
+
+@media screen and (max-width:1250px) {
+  p{display: none;}
+  .botao1{display: none;}
+  img{width: 354px;
+  height: 317px;
+ position:relative ; left: 300px;}
+ 
+ main{position: relative;
+    left: 368px;top: 305px;} 
+  
+
+
+
+ h1{font-size: 50px;}
+h2{font-size:30px ;
+ word-spacing:12px;
+position: relative;
+top: 110px;}
+
+
+
+.left{height: 50%
+    ;width: 100%;
+    position: absolute;}
+
+
+
+
+.right{height: 50%;
+    width: 100%;
+    position: absolute;}
+
+
+}
+
+
