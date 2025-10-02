@@ -18,7 +18,7 @@
     height: 100vh;
      width: 70%;
      position: relative;
-     top: 25px;left: 25px;}
+     top: 35px;left: 55px;}
 
 .botao1{color:  rgba(152, 157, 156, 1);
         font-size: 24px;    
@@ -35,7 +35,7 @@
 
  .botao1:nth-child(6)       
      {color: rgba(255, 255, 255, 1);
-     background: rgba(102, 90, 225, 1);
+     background: rgb(101, 90, 225);
      border-radius: 30px;
      padding:10px  20px ;
      text-align: center;
